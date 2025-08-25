@@ -7,7 +7,7 @@ int main()
         for(int i=2; i<=n/2; i=i+1) {
             if(n % i == 0) {flag=0;break;}
         }
-        if(flag) {sum += n;}
+        if(flag=1) {sum += n;}
     }
     printf("Sum of primes = %d\n", sum);
     return 0;
