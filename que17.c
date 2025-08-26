@@ -6,11 +6,11 @@ int main()
         printf("Enter number %d:", i);
         scanf("%d", &n);
         if(n > 0) {
-          pos=pos+1};
+          pos++};
         else if(n < 0) {
-          neg=neg+1};
+          neg++};
         else {
-          zero=zero+1};
+          zero++};
     }
     printf("Positive = %d, Negative = %d, Zero = %d", pos, neg, zero);
     return 0;
